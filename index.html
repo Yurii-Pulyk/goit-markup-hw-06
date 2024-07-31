@@ -32,22 +32,49 @@
                     </li>
                 </ul>
             </address>
-            <button class="burger-btn" type="button">
+            <button class="burger-btn" type="button" data-menu-open>
                 <svg class="burger-icon" width="24" heigth="24" >
                     <use href="./images/icons.svg#icon-burger-menu"></use>
                 </svg>
             </button>
         </div>
-        <div class="mobail-menu ">
+        <div class="mobail-menu is-open "data-menu >
             <div class=" container mobail-menu-conteiner">
-                <button class="mobail-menu-btn"><svg class="btn-menu-icon" width="8" height="8"><use href="./images/icons.svg#icon-close-black"></use></svg></button>
-                <nav> <a href="./index.html" /a>
+                <button class="mobail-menu-btn" data-menu-close><svg class="btn-menu-icon" width="8" height="8"><use href="./images/icons.svg#icon-close-black"></use></svg></button>
+                <nav class="mobail-menu-nav"> <a href="./index.html" a>
                     <ul class="mobail-menu-list">
-                       <li class="mobail-menu-item"><a class="mobail-menu-link current" href="./index.html">Studio</a></li>
+                       <li class="mobail-menu-item"><a class="mobail-menu-link current" href="./index.html"> <span class=""></span> Studio</a></li>
                        <li class="mobail-menu-item"><a class="mobail-menu-link" href="">Portfolio</a></li>
                        <li class="mobail-menu-item"><a class="mobail-menu-link" href="">Contacts</a></li>
                    </ul></nav>
-                <address></address>
+            
+                   
+                 <div class="contact-menu" >
+                           <address class="menu-address">
+                            <ul class="menu-address-list">
+                                <li>
+                                    <a class="menu-address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                                </li>
+                                <li>
+                                    <a class="menu-address-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                                </li>
+                            </ul>
+                        </address>
+                    
+    
+                        <div class="menu-link"> 
+                        <ul class="menu-icon">
+                        <li class="menu-icon-item"><a class="menu-icon-link" href="">
+                            <svg class="icon-svg" width="16" height="16"><use href="./images/icons.svg#icon-instagram"></use></svg></a></li>
+                        <li class="menu-icon-item"><a class="menu-icon-link" href="">
+                            <svg class="icon-svg" width="16" height="16"><use href="./images/icons.svg#icon-twitter"></use></svg></a></li>
+                        <li class="menu-icon-item"><a class="menu-icon-link" href="">
+                            <svg class="icon-svg" width="16" height="16"><use href="./images/icons.svg#icon-facebook"></use></svg></a></li>
+                        <li class="menu-icon-item"><a class="menu-icon-link" href="">
+                            <svg class="icon-svg" width="16" height="16"><use href="./images/icons.svg#icon-linkedin"></use></svg></a></li>
+                        </ul>
+                     </div>
+                 </div>
             </div>
         </div>
         </header>
@@ -119,7 +146,7 @@
 </section>
 
     <section class="team hidden">
-       <div class="container">
+       <div class="  container  ">
             <h2 class="team-titel">Our Team</h2>
             <ul class="team-list">
 
@@ -404,5 +431,6 @@
 
 
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
      </body>
 </html>
