@@ -436,13 +436,13 @@ position: absolute;
     
 }
 .container-footer{
-    display: flex;
-    align-items: baseline;
+    /* display: flex;
+   justify-content: center; */
 }
 
 .footer-blok-one{
-   /* display: flex; 
-     align-items: baseline; */
+   display: flex; 
+     align-items: baseline;
     margin-right: 120px;
 }
 .footer-loggo {
