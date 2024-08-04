@@ -614,14 +614,14 @@ color: #434455;
 }
 
 .feature-subtitle {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 20px;
     line-height: 24px; 
 
 }
 
 .feature-item-text {
-
+    font-weight: 400;
 max-width: 264px;
 
 }
@@ -648,6 +648,7 @@ margin-bottom: 72px;
 }
 .team-list {
         display: flex;
+        justify-content: center;
       flex-wrap: wrap;
       width: 100%;
         gap: 72px;
@@ -754,7 +755,7 @@ padding: 96px 0;
 
 }
 .team-titel{
-    margin-top: 96px;
+    
 }
 
 }
@@ -916,6 +917,7 @@ color: #434455;
     margin: 0 auto;
 
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     width: 100%;
     gap: 72px;
@@ -967,8 +969,7 @@ max-width: 264px;
 }
 
 .footer-blok-two {
-/* width: 208px;
-margin-left: auto;
+/* margin-left: auto;
 margin-right: auto; */
 }
 
@@ -985,6 +986,7 @@ text-align: center;
 
 .social-list {
     display: flex;
+    /* justify-content: center; */
     gap: 16px;
 }
 
@@ -1097,6 +1099,7 @@ text-align: center;
         gap: 72px 24px;
         max-width: 768px;
         padding: 0 108px;
+        justify-content: flex-start;
     }
     .footer-blok-three{
         /* width: 453px; */
